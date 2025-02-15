@@ -30,7 +30,7 @@ struct Stack {
         printHelper(node->next);
         
         if (node->val > 0) {
-            cout << node->val << " ";
+            cout << node->val << "->";
         }
     }
 };
